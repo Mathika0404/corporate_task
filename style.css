@@ -534,6 +534,21 @@ html, body {
   }
 }
 
+/* 360px Mobile - circle & image only */
+@media (max-width: 360px) {
+
+  .circle {
+    width: 270px;   /* reduce circle size */
+    height: 270px;
+    margin: auto;   /* keep centered */
+  }
+
+  .circle img {
+    width: 70%;     /* smaller image inside circle */
+  }
+
+}
+
 .agency {
   background: #1e2860;
   padding: 90px 0;
